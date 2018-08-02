@@ -1,3 +1,5 @@
+//  S.Selvabharathi  B.Tech IT  Rajalakshmi Engineering College
+// this code is used to connect the microcontroller with sd card and retrive the audio file
 #include <SD.h>                           //include SD module library
 #include <TMRpcm.h>                       //include speaker control library
 
