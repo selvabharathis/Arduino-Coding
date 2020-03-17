@@ -1,3 +1,8 @@
+// SELVABHARATHI
+// NOTE: while sending multiple data over NRF look for the size, the max size allowed is 32bit.
+// if you want to send data, which is much large, you can go with JSON formate of data sending,
+// with JSON send the data in 32bit of packets each. you can't send the entire data at once.
+// you can send it 32bit of packets only.
 #include <SPI.h>
 #include <nRF24L01.h>
 #include <RF24.h>
